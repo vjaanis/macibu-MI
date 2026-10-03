@@ -10,5 +10,5 @@ Pirms darba izlasi uzdevumam atbilstošo dokumentāciju:
 - `docs/development.md` — darba plūsma, izstrāde un publicēšana;
 - `docs/testing.md` — nepieciešamās pārbaudes un pabeigšanas kritēriji.
 
-Ievēro servera līmeņa `~/AGENTS.md`. Mainot projekta principus vai procesu,
-atjaunini arī attiecīgo failu mapē `docs/`.
+Šajā failā norādītie ceļi ir relatīvi pret projekta saknes mapi.
+Mainot projekta principus vai procesu, atjaunini arī attiecīgo failu mapē `docs/`.

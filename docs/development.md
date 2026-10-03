@@ -40,6 +40,10 @@ failus:
 | `docs/content.md` | mainot tekstus, valodu vai informācijas hierarhiju |
 | `docs/testing.md` | pirms un pēc izmaiņu pārbaudes |
 
+Projekta norāžu un dokumentācijas failu ceļi ir relatīvi pret projekta saknes
+mapi. `AGENTS.md` un `CLAUDE.md` satur vienādas projekta pamatnorādes;
+mainot tās, atjaunina abus failus.
+
 Dokumentācija apraksta ieceri, bet dzīvais kods un servera stāvoklis parāda
 faktisko situāciju. Ja tie atšķiras, aģents vispirms noskaidro atšķirības iemeslu,
 nevis akli pārraksta kodu pēc dokumenta.
