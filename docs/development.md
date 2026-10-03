@@ -264,6 +264,25 @@ Aģents prasa virzienu, ja nepieciešams:
 
 ## Darbs ar versiju kontroli
 
+### Projekta versija
+
+Versijas numuru glabā projekta saknes failā `VERSION` formātā
+`MAJOR.MINOR.PATCH`. Dokumentācijas un kļūdu labojumiem palielina `PATCH`,
+jaunām saderīgām iespējām — `MINOR`, būtiskām nesaderīgām izmaiņām — `MAJOR`.
+Palielinot `MINOR`, atiestata `PATCH` uz nulli; palielinot `MAJOR`, atiestata
+abus pārējos skaitļus uz nulli.
+
+Pirmā reģistrētā versija ir `0.1.1`: sākotnējās lapas un dokumentācijas
+labojums. Iepriekšējam sākotnējam stāvoklim versijas fails un tags nebija izveidots.
+Mācību vietnes iecere dokumentācijā nav jau īstenota jauna iespēja.
+
+Pēc pārbaudēm saglabā versijas faila izmaiņu komitā un šim komitam izveido
+anotētu Git tagu `v<versija>`. Ja lietotājs lūdz nosūtīt versiju uz GitHub,
+nosūta gan zaru, gan konkrēto tagu. Esošu publicētu tagu nepārraksta.
+Nosūtīšana uz GitHub pati par sevi nepārpublicē vietni nginx serverī.
+
+### Komiti un darba mape
+
 Ja projekts atrodas Git repozitorijā, pirms izmaiņām aģents pārbauda statusu un
 saglabā visas nesaistītās izmaiņas. Tas nepārvieto, neatceļ un neformatē svešas
 izmaiņas tikai tāpēc, lai darba koks būtu tīrs.

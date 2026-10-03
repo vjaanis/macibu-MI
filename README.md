@@ -3,6 +3,12 @@
 Vienkārša statiska mājaslapa, kuru nginx publicē adresē
 `https://vjaanis.gleeze.com` ar HTTP pāradresāciju uz HTTPS.
 
+## Versija
+
+Pašreizējās versijas numurs atrodas failā `VERSION`. Git tags `v<versija>`
+norāda uz atbilstošo komitu. Versiju palielināšanas kārtība aprakstīta
+`docs/development.md`.
+
 ## Projekta konteksts
 
 Darba noteikumi ir `AGENTS.md` un `CLAUDE.md`. Paplašinātais konteksts ir sadalīts
